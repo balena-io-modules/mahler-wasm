@@ -1,0 +1,33 @@
+{
+  "name": "mahler-wasm",
+  "version": "0.1.0",
+  "description": "WASM compiled utilities for Mahler",
+  "homepage": "https://github.com/balena-io-modules/mahler-wasm#readme",
+  "types": "pkg/mahler_wasm.d.ts",
+  "main": "pkg/mahler_wasm.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/balena-io-modules/mahler-wasm.git"
+  },
+  "bugs": {
+    "url": "https://github.com/balena-io-modules/mahler-wasm/issues"
+  },
+  "files": [
+    "pkg/mahler_wasm_bg.wasm",
+    "pkg/mahler_wasm.js",
+    "pkg/mahler_wasm.d.ts",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "clean": "cargo clean && rimraf pkg",
+    "flowzone-preinstall": "rustup target add wasm32-wasi && cargo install wasm-pack",
+    "build": "wasm-pack build --target nodejs --release --no-pack",
+    "test": "wasm-pack test --node"
+  },
+  "author": "Balena Inc. <hello@balena.io>",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "rimraf": "^5.0.1"
+  }
+}
