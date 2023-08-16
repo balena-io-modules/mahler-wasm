@@ -1,4 +1,15 @@
 - commits:
+    - subject: Configure minimal node version
+      hash: e06a8da692d2782e245282439799b52c26be26fe
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Felipe Lalanne
+  version: 0.1.1
+  title: ""
+  date: 2023-08-16T18:59:30.039Z
+- commits:
     - subject: Create first version
       hash: b3b37150febaa4c20ea7b0e58366040d185e8c1d
       body: |

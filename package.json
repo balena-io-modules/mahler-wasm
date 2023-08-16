@@ -1,6 +1,6 @@
 {
   "name": "mahler-wasm",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "WASM compiled utilities for Mahler",
   "homepage": "https://github.com/balena-io-modules/mahler-wasm#readme",
   "types": "pkg/mahler_wasm.d.ts",
@@ -34,6 +34,6 @@
     "node": ">=18.0.0"
   },
   "versionist": {
-    "publishedAt": "2023-08-16T15:59:46.204Z"
+    "publishedAt": "2023-08-16T18:59:30.106Z"
   }
 }
