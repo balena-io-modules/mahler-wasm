@@ -96,6 +96,4 @@ npm run test
 
 ## License
 
-Licensed under
-
-* [Apache License, Version 2.0](LICENSE)
+Licensed under [Apache License, Version 2.0](LICENSE)
