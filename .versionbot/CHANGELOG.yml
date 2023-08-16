@@ -1,0 +1,16 @@
+- commits:
+    - subject: Create first version
+      hash: b3b37150febaa4c20ea7b0e58366040d185e8c1d
+      body: |
+        This exports the functions `diff` and `patch` from
+        the json-patch crate, for use in Node via WASM
+
+        These are commonly used operations by the framework so it makes sense to
+        use Rust based implementations.
+      footer:
+        Change-type: minor
+        change-type: minor
+      author: Felipe Lalanne
+  version: 0.1.0
+  title: ""
+  date: 2023-08-16T15:59:46.116Z
